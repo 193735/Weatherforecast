@@ -1,10 +1,12 @@
 package com.example.administrator.weatherforecast;
 
+import java.io.Serializable;
+
 /**
  * Created by Administrator on 2018/10/16.
  */
 
-public class City {
+public class City implements Serializable {
     private int id;
   private  String province;
   private  String city;

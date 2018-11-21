@@ -1,122 +1,162 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
-    android:layout_height="150dp"
+    android:layout_height="wrap_content"
     tools:context="com.example.administrator.weatherforecast.Weather1Fragment">
 
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="150dp"
-    android:orientation="horizontal">
     <LinearLayout
-        android:layout_weight="1"
         android:layout_width="wrap_content"
-        android:layout_height="150dp"
-        android:orientation="vertical">
-        <TextView
-            android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/date_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="24日星期一"
+                android:textColor="#fff" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:src="@mipmap/biz_plugin_weather_qing" />
+
+            <TextView
+                android:id="@+id/tem_low_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="低温17c"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/tem_high_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="高温27c"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/city_weather_quality_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="晴"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/city_wind_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="东北风3-4级"
+                android:textColor="#fff" />
+        </LinearLayout>
+        <LinearLayout
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="24日星期一"
-            android:gravity="center"/>
-        <ImageView
-            android:layout_weight="15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/biz_plugin_weather_qing"/>
-        <TextView
-            android:textColor="#fff"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/date_five"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24日星期一"
+                android:gravity="center"/>
+            <ImageView
+                android:layout_weight="15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biz_plugin_weather_qing"/>
+            <TextView
+                android:id="@+id/tem_low_five"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="低温17c"/>
+            <TextView
+                android:id="@+id/tem_high_five"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="高温27c"/>
+            <TextView
+                android:id="@+id/city_weather_quality_five"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="晴"/>
+            <TextView
+                android:id="@+id/city_wind_five"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="东北风3-4级"/>
+        </LinearLayout>
+        <LinearLayout
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="低温17c-高温27c"/>
-        <TextView
-            android:textColor="#fff"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="晴"/>
-        <TextView
-            android:textColor="#fff"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="东北风3-4级"/>
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/date_six"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24日星期一"
+                android:gravity="center"/>
+            <ImageView
+                android:layout_weight="15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biz_plugin_weather_qing"/>
+            <TextView
+                android:id="@+id/tem_low_six"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="低温17c"/>
+            <TextView
+                android:id="@+id/tem_high_six"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="高温27c"/>
+            <TextView
+                android:id="@+id/city_weather_quality_six"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="晴"/>
+            <TextView
+                android:id="@+id/city_wind_six"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="东北风3-4级"/>
+        </LinearLayout>
     </LinearLayout>
-    <LinearLayout
-        android:layout_weight="1"
-        android:layout_width="wrap_content"
-        android:layout_height="150dp"
-        android:orientation="vertical">
-        <TextView
-            android:textColor="#fff"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="24日星期一"
-            android:gravity="center"/>
-        <ImageView
-            android:layout_weight="15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/biz_plugin_weather_qing"/>
-        <TextView
-            android:textColor="#fff"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="低温17c-高温27c"/>
-        <TextView
-            android:textColor="#fff"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="晴"/>
-        <TextView
-            android:textColor="#fff"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="东北风3-4级"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_weight="1"
-        android:layout_width="wrap_content"
-        android:layout_height="150dp"
-        android:orientation="vertical">
-        <TextView
-            android:textColor="#fff"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="24日星期一"
-            android:gravity="center"/>
-        <ImageView
-            android:layout_weight="15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/biz_plugin_weather_qing"/>
-        <TextView
-            android:textColor="#fff"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="低温17c-高温27c"/>
-        <TextView
-            android:textColor="#fff"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="晴"/>
-        <TextView
-            android:textColor="#fff"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="东北风3-4级"/>
-    </LinearLayout>
-</LinearLayout>
 
 
 </FrameLayout>
